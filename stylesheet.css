@@ -1,0 +1,264 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+  font-family: serif;
+}
+header{
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: 10;
+  color: white;
+  padding-top: 15px;
+}
+.header-logo{
+  float: left;
+  line-height: 50px;
+  font-size: 35px;
+  margin-left: 30px;
+
+}
+.header-list{
+  float: right;
+
+}
+.header-list a{
+  display: block;
+  float:left;
+  padding: 0 25px;
+  line-height: 50px;
+}
+.top-wrapper{
+  width: 100%;
+  height: 600px;
+  background-image: url("beauty-1319951_1920.jpg");
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+}
+.top-wrapper::before{
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}
+.sideber{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  font-size: 220px;
+  color: white;
+  box-sizing: border-box;
+  margin:0 30px;
+}
+.sideber h6{
+  display: none;
+  margin:auto 0;
+  height: 100%;
+  padding:80px 50px;
+  line-height: 150px;
+}
+.main-wrapper{
+  width: 100%;
+  height: auto;
+}
+
+.title-box{
+  position:relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 0 50px 0;
+  text-align:center;
+
+}
+.title-box h1{
+  position: relative;
+  z-index: 9;
+  font-family: cursive;
+  font-size: 64px;
+  color: rgba(227,191,100,0.92);
+}
+.title-box p{
+  position: relative;
+  z-index: 9;
+  font-size: 24px;
+  color: #757575;
+}
+.color-box1{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 40%;
+  height: 70%;
+  background-color: rgba(219, 211, 191, 0.92);
+  z-index: 2;
+}
+.color-box2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-color: rgba(253,225,154,0.92);
+  z-index: 1;
+}
+.introduce-box{
+  width: 100%;
+}
+.introduce-box1,.introduce-box2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  box-sizing: border-box;
+}
+.introduce-box1{
+  position: relative;
+}
+.color-box5{
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  background-color: rgba(219, 211, 191, 0.92);
+  width: 30%;
+  height: 70%;
+  z-index: 1;
+
+}
+.introduce-box img{
+  object-fit:cover;
+  width:50%;
+  height: 100%;
+}
+.text-box{
+  width: 50%;
+  height: 100%;
+  padding: 0 20px;
+  margin:auto 0;
+}
+.introduce-box2{
+  flex-flow:row-reverse;
+  position: relative;
+}
+.introduce-box2 h2,p{
+  position: relative;
+  z-index: 9;
+}
+.color-box3{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 60%;
+  background-color: rgba(253,225,154,0.92);
+}
+.introduce-box3{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.introduce-box3 img{
+  width: 50%;
+  display: block;
+  margin: auto;
+  position: relative;
+  z-index: 9;
+}
+.text-box3{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0;
+  position: relative;
+  z-index: 9;
+
+}
+
+.color-box4{
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  background-color : rgba(253,225,154,0.92);
+  z-index: 1
+}
+.products-wrapper{
+  width: 100%;
+  height: 600px;
+}
+
+.products-title-box{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+h3{
+  margin: 0 auto;
+  font-size: 32px;
+  padding-top: 80px;
+  font-family: cursive;
+  color: rgba(227,191,100,0.92);
+}
+.products-title-box p{
+  padding-bottom: 80px;
+  margin: 0 auto;
+  color: #757575;
+}
+
+.product{
+  width: 25%;
+  height: 250px;
+  text-align: center;
+  float: left;
+  box-sizing: border-box;
+}
+.product img{
+  object-fit: cover;
+  width: 60%;
+  height: 60%;
+  display: block;
+  margin: auto;
+}
+.product p{
+  height: 40%;
+  margin-bottom: 30px;
+}
+.information-box{
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+}
+.information{
+  width: 50%;
+  height: 100%;
+  margin: auto 0;
+}
+.map{
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+h5{
+  font-size: 24px;
+}
+footer{
+  text-align: center;
+  background-color: rgba(253,225,154,0.92);
+}
+.footer-logo{
+  font-size: 50px;
+  padding: 100px;
+}
