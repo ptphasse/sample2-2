@@ -68,7 +68,7 @@ header{
   padding:80px 50px;
   line-height: 150px;
   opacity: 0;
-  transition: 0.7s;
+  transition: 2s;
   margin-left: 60px;
 }
 .sideber h6.showUp{
