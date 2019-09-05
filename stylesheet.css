@@ -231,6 +231,8 @@ h3{
   float: left;
   box-sizing: border-box;
 }
+.product:hover{
+  opacity:0.5;
 .product img{
   object-fit: cover;
   width: 60%;
